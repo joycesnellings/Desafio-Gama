@@ -6,6 +6,7 @@ import SearchBar from '../Bars/SearchBar/SearchBar';
 import Carrinho from '../Cart'
 import CartIcon from "../../assets/images/carrinho.png";
 import { Header1, Nav, HeaderLink, SearchBarDiv, StyledIconWrapper, Img, CartItemCount } from './styles';
+import Login from '../../pages/Login';
 
 // contador do carrinho
 const Header: React.FC = () => {
@@ -34,11 +35,13 @@ const Header: React.FC = () => {
           </StyledIconWrapper>
 
           <HeaderLink texto="Login" redirect="/" />
-          {/* adicionar função de login */}
+          {<Login/>}
         </Nav>
       </div>
     </Header1>
   );
 };
+
+
 
 export default Header;
