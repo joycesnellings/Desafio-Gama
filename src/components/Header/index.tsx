@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { RootState } from '../store';
 import SearchBar from '../Bars/SearchBar/SearchBar';
-import Carrinho from '../Cart'
-import CartIcon from "../../assets/images/carrinho.png";
+import Carrinho from '../Cart';
+import CartIcon from '../../assets/images/carrinho.png';
 import { Header1, Nav, HeaderLink, SearchBarDiv, StyledIconWrapper, Img, CartItemCount } from './styles';
 import Login from '../../pages/Login';
 

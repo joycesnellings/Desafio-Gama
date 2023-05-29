@@ -1,4 +1,8 @@
-import { Routes as WrapperRoutes, Route, BrowserRouter } from "react-router-dom";
+import {
+    Routes as WrapperRoutes,
+    Route,
+    BrowserRouter,
+  } from "react-router-dom";
 import ProductList from "./components/Products/ProductList";
 import Home from "./pages/Home";
 import Cart from "./components/Cart/index";
